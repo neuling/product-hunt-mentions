@@ -26,6 +26,7 @@
     "grunt-zip": "^0.17.1",
     "node-bourbon": "^4.2.8",
     "node-neat": "^1.7.2",
+    "node-sass": "^4.1.1",
     "webpack": "^1.13.0",
     "webpack-dev-server": "^1.14.1"
   },

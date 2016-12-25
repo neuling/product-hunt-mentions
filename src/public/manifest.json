@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "Product Hunt Mentions",
   "description": "Mention autocomplete for users, posts and products inside comments on Product Hunt (www.producthunt.com)",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icons": {
     "16": "images/icon128.png",
     "48": "images/icon128.png",

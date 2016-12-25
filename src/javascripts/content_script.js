@@ -5,7 +5,7 @@ window.jQuery = jQuery;
 window.$ = jQuery;
 
 const client = algoliasearch('0H4SMABBSG', '9670d2d619b9d07859448d7628eea5f3');
-const textareaSelector = '[rel=comments-form] textarea[class^=input_]';
+const textareaSelector = '[class^=discussion_] form textarea[class^=input_]';
 
 const arrow = `<svg width="9" height="8" viewBox="0 0 9 8" xmlns="http://www.w3.org/2000/svg"><title>Rectangle 64</title><path d="M9 8H0l4.5-8L9 8z" fill="#fff" fill-rule="evenodd"></path></svg>`;
 

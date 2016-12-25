@@ -44,9 +44,6 @@ module.exports = function(grunt) {
           sourceMap: false
         },
         files: {
-          "<%= grunt.config.get('buildDir') %>/css/application.css": "src/stylesheets/application.sass",
-          "<%= grunt.config.get('buildDir') %>/css/panel.css": "src/stylesheets/panel.sass",
-          "<%= grunt.config.get('buildDir') %>/css/rules.css": "src/stylesheets/rules.sass",
           "<%= grunt.config.get('buildDir') %>/css/content_styles.css": "src/stylesheets/content_styles.sass"
         }
       }
@@ -89,9 +86,6 @@ module.exports = function(grunt) {
         },
         resolve: {
           modulesDirectories: [
-            'javascripts/containers',
-            'javascripts/components',
-            'javascripts/utils',
             'node_modules',
           ],
           extensions: [
